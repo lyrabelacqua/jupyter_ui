@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head 
+         content must come *after* these tags -->
+    <title>Callypso</title>
+        <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<header>
+   <span class="brand"><i class="fa fa-moon-o"></i><span class="brandname">Callypso</span></span>
+    <a href="" class="create"><span class="titleblock"><span class="atitle">CREATE</span><br><span class="asubtitle">NEW NOTEBOOK</span></span><span class="plus">+</span></a>
+</header>
+
+<main>
+    <div>
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#start" aria-controls="home" role="tab" data-toggle="tab">Start</a></li>
+        <li role="presentation"><a href="#notebook" aria-controls="profile" role="tab" data-toggle="tab">Notebook Example</a></li>
+        <li role="presentation"><a href="#notebook2" aria-controls="profile" role="tab" data-toggle="tab">Notebook Example 2</a></li>
+       
+    </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="start">
+      
+    <!--Start Screen -->
+      
+    <div class="container-fluid" id="filelist">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+            <h3>File List<br>
+            <span class="h3sub">(double-click on a notebook's name to open it)</span>
+                  
+            </h3>
+                <div class="row">
+  <div class="col-xs-12">      
+<div class="tabs">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#file" aria-controls="home" role="tab" data-toggle="tab">Files</a></li>
+    <li role="presentation"><a href="#run" aria-controls="profile" role="tab" data-toggle="tab">Running</a></li>
+  
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active bg" id="file">
+      <div class="list-choice">
+        <select>
+  <option value="python">All Files</option>
+  <option value="js">Notebooks</option>
+</select> 
+        </div>
+    <div class="row files files-title">
+        <div class="col-xs-3">
+        File Name
+        </div>
+        <div class="col-xs-3">
+        Kernel
+        </div>
+        <div class="col-xs-3">
+        Slides
+        </div>
+        <div class="col-xs-3">
+        Share
+        </div>
+    </div>
+      
+        <div class="row files">
+        <div class="col-xs-3">
+        Science
+        </div>
+        <div class="col-xs-3">
+        R
+        </div>
+        <div class="col-xs-3">
+        <i class="fa fa-download"></i>
+        </div>
+        <div class="col-xs-3">
+        <i class="fa fa-link"></i>
+        </div>
+    </div>    
+        
+          <div class="row files">
+        <div class="col-xs-3">
+        Example
+        </div>
+        <div class="col-xs-3">
+        Javascript
+        </div>
+        <div class="col-xs-3">
+        <i class="fa fa-download"></i>
+        </div>
+        <div class="col-xs-3">
+        <i class="fa fa-link"></i>
+        </div>
+    </div> 
+        
+         <div class="row files">
+        <div class="col-xs-3">
+        Random
+        </div>
+        <div class="col-xs-3">
+        Python
+        </div>
+        <div class="col-xs-3">
+        <i class="fa fa-download"></i>
+        </div>
+        <div class="col-xs-3">
+        <i class="fa fa-link"></i>
+        </div>
+    </div> 
+        
+        
+        
+    </div>
+    
+    <div role="tabpanel" class="tab-pane bg" id="run">
+      <div class="row terminal-row">
+      
+      <div class="col-xs-12">
+      <h4>Running</h4>
+      <p>Notebook 1</p>
+      </div>
+      </div>
+      
+      <div class="row terminal-row">
+      
+      <div class="col-xs-12">
+      <h4>Terminal</h4>
+        <p>None running.</p>
+      </div>
+      </div>
+  </div>
+      </div>
+
+</div>   
+ </div>   
+</div> 
+            
+            </div>
+            <div class="col-xs-12 col-sm-6" id="infopane">
+            <span class="infotitle">WHAT IS</span><br>
+            <span class="infotitleb">CALLYPSO?</span><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h7>Example Header #1</h7>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                 <h7>Example Header #2</h7>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            
+            </div>
+        
+       </div>
+        
+        
+    </div>  
+      
+      
+      
+      
+      
+    </div>
+    <div role="tabpanel" class="tab-pane" id="notebook">
+    <!-- example notebook -->
+
+<!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">File<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <!-- New notebook, open, save, save as, download as slides, close -->
+                <li><a href="#">New Notebook</a></li>
+                <li><a href="#">Open</a></li>
+                <li><a href="#">Save</a></li>
+                <li><a href="#">Save as</a></li>
+                <li><a href="#">Download as slides</a></li>
+                <li><a href="#">Close</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cell<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <!--insert new txt cell, insert new code cell, move cell up, move cell down, run cell, delete cell-->
+                <li><a href="#">Insert new text cell</a></li>
+                <li><a href="#">Insert new code cell</a></li>
+                <li><a href="#">Move cell up</a></li>
+                <li><a href="#">Move cell down</a></li>
+                <li><a href="#">Run cell</a></li>
+                <li><a href="#">Delete cell</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">View<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <!--View ma Switch Back to Icon Menu i Switch Back to start screen-->
+                <li><a href="#">Switch Back to Icon Menu</a></li>
+                <li><a href="#">Switch Back to Start Screen</a></li>
+              </ul>
+            </li>
+
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kernel<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Change kernel </li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Interrupt</a></li>
+                <li><a href="#">Restart</a></li>
+                <li><a href="#">Reconnect</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+      <!-- heading -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12" style="text-align: center;"><h2>Notebook Example</h2></div>
+      </div>
+      
+      <!-- cells -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-1"></div>
+        <div class="col-xs-12 col-sm-10">
+
+          <!-- green cell -->
+          <div class="panel panel-success">
+            <div class="panel-body">
+            <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+          <!-- in cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading" style="text-align: right;">
+              <span style="float:left">In:</span>&nbsp;
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+            <div class="panel-heading">
+               var a = 1;</br>
+               a = a + 2;</br>
+               var b = a*a;</br>
+               return b;
+            </div>
+          </div>
+
+          <!-- out cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading" style="text-align: right;">
+              <span style="float:left">Out:</span>&nbsp;
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+            <div class="panel-heading">
+               9
+            </div>
+          </div>
+
+          <!-- red cell -->
+          <div class="panel panel-danger">
+            <div class="panel-body">
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+          <!-- default cell -->
+          <div class="panel panel-default" style="border: 0px;">
+            
+            <div class="panel-body">
+            <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+          <!-- cell -->
+          <div class="panel panel-default"  style="border: 0px;">
+            <div class="panel-heading">
+            <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+               var a = 1;<br>
+               a + 2;<br>
+               b = a*a;
+            </div>
+          </div>
+
+          <!-- closed cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              &nbsp;<span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+          </div>
+
+          <!-- second closed cell -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+          </div>
+
+          <!-- diagram cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <button type="button" class="btn btn-lg btn-default"><i class="fa fa-bar-chart"></i></button> 
+              <button type="button" class="btn btn-lg btn-default"><i class="fa fa-line-chart"></i></button>
+              <br>
+              <span style="font-size: 200px;"><i class="fa fa-bar-chart"></i></span>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-1"></div>
+      </div>
+
+    <!-- -->
+    </div>
+
+    <div role+"tabpanel" class="tab-pane" id="notebook2">
+
+<!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" title="Open"><i class="fa fa-folder-open fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#" title="Save"><i class="fa fa-floppy-o fa-2x"></i></a></li>
+            <li><a href="#" title="Insert new text cell"><i class="fa  fa-plus"></i><i class="fa  fa-file-text-o fa-2x"></i></a></li>
+            <li><a href="#" title="Insert new code cell"><i class="fa  fa-plus"></i><i class="fa  fa-file-code-o fa-2x"></i></a></li>
+            <li><a href="#" title="Delete cell"><i class="fa fa-trash fa-2x"></i></a></li>
+            <li><a href="#" title="Run cell"><i class="fa fa-play fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#" title="Share notebook"><i class="fa fa-link fa-2x"></i></a></li>
+            <li><a href="#" title="Create slides"><i class="fa fa-download fa-2x"></i></a></li>
+            <li><a href="#" title="Expand"><i class="fa fa-exchange fa-2x"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+      <!-- heading -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12" style="text-align: center;"><h2>Notebook Example 2</h2></div>
+      </div>
+      
+      <!-- cells -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-1"></div>
+        <div class="col-xs-12 col-sm-10">
+
+          <!-- green cell -->
+          <div class="panel panel-success">
+            <div class="panel-body">
+            <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+          <!-- in cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading" style="text-align: right;">
+              <span style="float:left">In:</span>&nbsp;
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+            <div class="panel-heading">
+               var a = 1;</br>
+               a = a + 2;</br>
+               var b = a*a;</br>
+               return b;
+            </div>
+          </div>
+
+          <!-- out cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading" style="text-align: right;">
+              <span style="float:left">Out:</span>&nbsp;
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+            <div class="panel-heading">
+               9
+            </div>
+          </div>
+
+          <!-- red cell -->
+          <div class="panel panel-danger">
+            <div class="panel-body">
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+          <!-- default cell -->
+          <div class="panel panel-default" style="border: 0px;">
+            
+            <div class="panel-body">
+            <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+
+          <!-- cell -->
+          <div class="panel panel-default"  style="border: 0px;">
+            <div class="panel-heading">
+            <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+               var a = 1;<br>
+               a + 2;<br>
+               b = a*a;
+            </div>
+          </div>
+
+          <!-- closed cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              &nbsp;<span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+          </div>
+
+          <!-- second closed cell -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <span style="float:right"><i class="fa fa-minus-square-o"></i></span>
+            </div>
+          </div>
+
+          <!-- diagram cell -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <button type="button" class="btn btn-lg btn-default"><i class="fa fa-bar-chart"></i></button> 
+              <button type="button" class="btn btn-lg btn-default"><i class="fa fa-line-chart"></i></button>
+              <br>
+              <span style="font-size: 200px;"><i class="fa fa-bar-chart"></i></span>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-1"></div>
+      </div>
+
+
+
+
+
+    </div>
+  
+  </div>
+
+    </div>
+    
+    
+</main>
+    
+<footer>
+    <div class="container">
+        <div class="row row-footer">
+            <div class="col-xs-12 col-sm-4">
+                <h5>Authors</h5>
+                <ul class="list-unstyled">
+                    <li>Michał Dzik</li>
+                    <li>Marcin Jadwiszczak</li>
+                    <li>Monika Kłokosińska</li>
+                    <li>Jan Latour</li>
+                    <li>Klaudia Wereniewicz</li>
+                </ul>
+            </div>
+             <div class="col-xs-12 col-sm-4">
+                <h5>Resources</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Jupyter Site</a></li>
+                </ul>
+            </div>
+             <div class="col-xs-12 col-sm-4">
+                <h5>Help</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Project Documentation</a></li>
+                    <li><a href="#">Jupyter Help Docs</a></li>
+                 </ul>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
