@@ -18,3 +18,9 @@ npm link webpack-dev-server --save
 webpack
 node server.js
 ```
+
+```
+python -m notebook --NotebookApp.allow_origin="*"
+```
+
+
