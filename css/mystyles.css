@@ -1,0 +1,275 @@
+header {
+    background-color: #80CCEB;
+    height: 90px;
+    color: #005F6B;
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index: 9999;
+}
+
+.brand {
+    padding: 20px 30px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 29px;
+    letter-spacing: 4px;
+    display: inline-block;
+    
+}
+
+.fa-moon-o {
+    color: #008C9E;
+}
+
+
+.create {
+    display: block;
+    float:right;
+    height:90px;
+    background-color:#66AEF3;
+    width:260px;
+}
+
+.titleblock {
+    text-align: center;
+    margin-top: 15px;
+    margin-left:10px;
+    display:block;
+    width:210px;
+    float:left;
+    
+
+}
+
+.atitle {
+    color: #E9F2F9;
+    font-size: 25px;
+    letter-spacing:4px;
+}
+
+.asubtitle {
+    margin-top: -6px;
+    display:block;
+    color: #CBDBE0;
+    margin-left:-4px;
+    
+}
+
+.plus {
+    display: block;
+    text-align:left;
+    width: 40px;
+    float:left;
+    font-size: 55px;
+    margin-left:-30px;
+    color:#E9F2F9;
+    
+    
+
+}
+
+footer {
+    background-color: #E8F3F8;
+    font-family: Verdana;
+    font-size: 11px;
+    padding-bottom: 7px;
+    color: #0C0F66;
+    
+}
+
+h5 {
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0E4EAD;
+}
+
+#filelist {
+    margin-bottom: 30px;
+    margin-right:10px;
+    margin-left:10px;
+
+}
+
+
+#start {
+    
+
+
+}
+
+#infopane {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#infopane p {
+    font-size:12px;
+    text-align: justify;
+    text-indent: 2em;
+    color: #435B65;
+
+}
+
+#infopane h7 {
+    margin-bottom: 9px;
+    display: block;
+    font-size:19px;
+    color: #017EC6;
+    font-variant:small-caps;
+    
+
+}
+
+.infotitle {
+    text-align:center;
+    display:block;
+    font-family: Helvetica;
+    font-size:35px;
+    letter-spacing:8px;
+    color: #145FC9;
+    
+
+}
+
+.infotitleb {
+    text-align:center;
+    display:block;
+    font-family: Helvetica;
+    font-size:35px;
+    letter-spacing:0.5px;
+    margin-top:-32px;
+    color: #017EC6;
+    margin-bottom:5px;
+    
+    
+
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    color:#107FC9;
+    font-size:30px;
+    font-family: Helvetica;
+    font-variant:small-caps;
+    margin-bottom: 0px;
+}
+
+.h3sub {
+    font-size:10px;
+    display:block;
+    margin-top:-1px;
+    text-transform: uppercase;
+    color: #1F73E0;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #0C0F66;
+    
+}
+
+#filelist .tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 0px;
+}
+
+#filelist .nav-tabs {
+    margin-bottom: 0;
+}
+
+
+@media(max-width:768px){
+   .brandname {
+        font-size:20px;
+        letter-spacing: 1px;
+        
+   }
+    
+   .create {
+        width:70px;
+   }
+    
+   .titleblock {
+        display: none;
+    
+   }
+    
+   .plus {
+        margin-left:20px;
+   
+   }
+    
+    #filelist {
+        margin-right:2px;
+        margin-left:2px;
+    
+    }
+    
+}
+
+
+
+
+.new {
+    marign: 0 auto;
+    margin-top:25px;
+}
+
+.new h3 {
+    text-align: center;
+    color: #2A3B63;
+}
+
+.tabs {
+
+    margin-top:40px;
+    
+
+}
+
+main {
+    margin-top: 100px;
+
+}
+
+.bg {
+    background-color:#F7F9FE;
+}
+
+.files {
+    
+    text-align:center;
+    padding: 10px;
+
+}
+
+.files-title {
+
+    font-weight: bold;
+}
+
+.list-choice {
+    padding:10px;
+}
+
+h4 {
+    background:#DCE8EB;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+.terminal-row p {
+    margin:15px;
+
+}
